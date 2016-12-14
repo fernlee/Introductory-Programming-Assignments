@@ -8,7 +8,7 @@ public class main {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         while(x<n) {
-            System.out.print("*");
+            System.out.println("*");
             x++;
         }
     }
