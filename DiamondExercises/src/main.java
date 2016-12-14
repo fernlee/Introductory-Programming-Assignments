@@ -10,6 +10,10 @@ public class main {
         int n = in.nextInt();
         while(i<n) {
             i++;
+            if (i == n){
+                System.out.println("LiYae");
+                break;
+            }
             for (k=0;k<n-i;k++){
                 System.out.print(" ");
             }
