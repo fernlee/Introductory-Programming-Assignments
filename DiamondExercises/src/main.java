@@ -21,5 +21,18 @@ public class main {
             }
             System.out.println();
         }
+        while(i>0){
+            i--;
+            for (k=0;k<n-i;k++){
+                System.out.print(" ");
+            }
+            for(j=0;j<i*2-1;j++){
+                System.out.print("*");
+            }
+            for (k=0;k<n-i;k++){
+                System.out.print(" ");
+            }
+            System.out.println();
+        }
     }
 }
